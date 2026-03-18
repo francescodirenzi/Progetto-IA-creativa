@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+/* Minimal code styling for markdown */
+.prose pre {
+  @apply bg-zinc-900/60 border border-zinc-800;
+}
+.prose code {
+  @apply text-zinc-100;
+}
+
